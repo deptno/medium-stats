@@ -1,0 +1,13 @@
+{
+  "name": "medium-stats",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/deptno/medium-stats.git",
+  "author": "Bonggyun Lee <deptno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^3.0.0",
+    "puppeteer": "^1.6.2",
+    "ramda": "^0.25.0"
+  }
+}
