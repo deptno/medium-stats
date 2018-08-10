@@ -39,9 +39,7 @@ const download = async response => {
 }
 const delay = t => new Promise(r => setTimeout(r, t * weight * 1000))
 const spinner = R.curryN(2, (message, p) => {
-  const spinner = ora(message)
-
-  spinner.start()
+  const spinner = ora(message).start()
 
   return p
     .then(R.nAry(0, R.bind(spinner.succeed, spinner)))
